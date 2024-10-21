@@ -1,4 +1,6 @@
-import os
+from dotenv import load_dotenv
+
+load_dotenv()
 from langchain_openai import ChatOpenAI
 from langchain.prompts.prompt import PromptTemplate
 from langchain_core.tools import Tool
@@ -14,20 +16,20 @@ def lookup(name: str) -> str:
     llm = ChatOpenAI(
         temperature=0,
         model_name="gpt-4o-mini",
-        openai_api_key=os.environ["OPENAI_API_KEY"],
     )
-    template = """given the full name {name_of_person} I want you to get it me a link to their Linkedin profile page.
-                          Your answer should contain only a URL to the Person's profile page, not a search, not a post,
-                          just the individual's LindedIn Profile page"""
+    template = """given the full name {name_of_person} I want you to get me your bluesky account name.  
+                              Your answer should contain on contain persons username
+                              which is extracted from https://bsky.app/profile/USERNAME.
+                              """
 
     prompt_template = PromptTemplate(
         template=template, input_variables=["name_of_person"]
     )
     tools_for_agent = [
         Tool(
-            name="Crawl Google 4 linkedin profile page",
+            name="Crawl Google 4 bluesky profile page",
             func=get_profile_url_tavily,
-            description="useful for when you need get the Linkedin Page URL",
+            description="useful for when you need get the bluesky page username",
         )
     ]
 
@@ -39,9 +41,9 @@ def lookup(name: str) -> str:
         input={"input": prompt_template.format_prompt(name_of_person=name)}
     )
 
-    linked_profile_url = result["output"]
-    return linked_profile_url
+    bluesky_handle = result["output"]
+    return bluesky_handle
 
 
 if __name__ == "__main__":
-    print(lookup(name="Paul Krugman"))
+    print(lookup(name="Jeff Gerstmann Bluesky"))

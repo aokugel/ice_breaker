@@ -1,5 +1,6 @@
 import os
 import requests
+import json
 
 def hello_world():
     print("hello world")
@@ -9,7 +10,11 @@ def scrape_linkedin_profile(linkedin_profile_url: str, mock: bool = False):
     Manually scrape the information from the LinkedIn profile"""
 
     if mock:
-        linkedin_profile_url = 'https://gist.githubusercontent.com/aokugel/7ec52c573b2f64b56eb5fd0def25b92f/raw/4092872b46aec1733c66e36074d8c6b03ed0649b/gistfile1.txt'
+        ### Matt Hicks mock
+        #linkedin_profile_url = 'https://gist.githubusercontent.com/aokugel/7ec52c573b2f64b56eb5fd0def25b92f/raw/4092872b46aec1733c66e36074d8c6b03ed0649b/gistfile1.txt'
+        
+        ### Jeff gerstmann mock
+        linkedin_profile_url = 'https://gist.githubusercontent.com/aokugel/2ffeb5abaf37f28c085ec2e05a0dffdb/raw/d5e840c2629c8ef1c3801c4555514ad5186fd69d/gerstmann.json'
         response = requests.get(
             linkedin_profile_url,
             timeout=10
@@ -40,6 +45,7 @@ def scrape_linkedin_profile(linkedin_profile_url: str, mock: bool = False):
 
 
 if __name__ == "__main__":
+        
     print(
-        scrape_linkedin_profile(linkedin_profile_url="", mock=True)
+        scrape_linkedin_profile(linkedin_profile_url="https://www.linkedin.com/in/jeffgerstmann/", mock=True)
     )
