@@ -14,7 +14,7 @@ def scrape_linkedin_profile(linkedin_profile_url: str, mock: bool = False):
         #linkedin_profile_url = 'https://gist.githubusercontent.com/aokugel/7ec52c573b2f64b56eb5fd0def25b92f/raw/4092872b46aec1733c66e36074d8c6b03ed0649b/gistfile1.txt'
         
         ### Jeff gerstmann mock
-        linkedin_profile_url = 'https://gist.githubusercontent.com/aokugel/2ffeb5abaf37f28c085ec2e05a0dffdb/raw/d5e840c2629c8ef1c3801c4555514ad5186fd69d/gerstmann.json'
+        linkedin_profile_url = 'https://gist.githubusercontent.com/aokugel/2ffeb5abaf37f28c085ec2e05a0dffdb/raw/df6c8cb082e38a204d49c7c3cc5b76668fe745b3/gerstmann.json'
         response = requests.get(
             linkedin_profile_url,
             timeout=10

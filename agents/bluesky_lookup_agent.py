@@ -19,7 +19,8 @@ def lookup(name: str) -> str:
     )
     template = """given the full name {name_of_person} I want you to get me your bluesky account name.  
                               Your answer should contain on contain persons username
-                              which is extracted from https://bsky.app/profile/USERNAME.
+                              which is extracted from https://bsky.app/profile/USERNAME/
+                              ignore everything after the username.
                               """
 
     prompt_template = PromptTemplate(
@@ -38,7 +39,7 @@ def lookup(name: str) -> str:
     agent_executor = AgentExecutor(agent=agent, tools=tools_for_agent, verbose=True)
 
     result = agent_executor.invoke(
-        input={"input": prompt_template.format_prompt(name_of_person=name)}
+        input={"input": prompt_template.format_prompt(name_of_person=name + " Bluesky")}
     )
 
     bluesky_handle = result["output"]
@@ -46,4 +47,4 @@ def lookup(name: str) -> str:
 
 
 if __name__ == "__main__":
-    print(lookup(name="Jeff Gerstmann Bluesky"))
+    print(lookup(name="Jeff Gerstmann"))

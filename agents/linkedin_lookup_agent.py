@@ -36,7 +36,7 @@ def lookup(name: str) -> str:
     agent_executor = AgentExecutor(agent=agent, tools=tools_for_agent, verbose=True)
 
     result = agent_executor.invoke(
-        input={"input": prompt_template.format_prompt(name_of_person=name)}
+        input={"input": prompt_template.format_prompt(name_of_person=name+" Linkedin")}
     )
 
     linked_profile_url = result["output"]

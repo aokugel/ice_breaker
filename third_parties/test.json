@@ -1,1 +1,90 @@
-{"public_identifier": "jeffgerstmann", "first_name": "Jeff", "last_name": "Gerstmann", "full_name": "Jeff Gerstmann", "follower_count": 953, "occupation": "Founder at Guard Bike Heavy Industries", "headline": "Jeff Gerstmann of The Jeff Gerstmann Show", "summary": "Have covered computer and video games for the past, like, 30 years. Have launched and redesigned websites. Have found a new and better way to do both.", "country": "US", "country_full_name": "United States", "city": "United States", "experiences": [{"starts_at": {"day": 1, "month": 6, "year": 2022}, "ends_at": null, "company": "Guard Bike Heavy Industries", "company_linkedin_profile_url": null, "company_facebook_profile_url": null, "title": "Founder", "description": "Covering the video game industry and, ya know, games with a variety of podcasts and additional shows. Look for 'The Jeff Gerstmann Show' wherever you get your podcasts.", "location": "California, United States", "logo_url": null}, {"starts_at": {"day": 1, "month": 3, "year": 2008}, "ends_at": {"day": 30, "month": 6, "year": 2022}, "company": "Giant Bomb", "company_linkedin_profile_url": null, "company_facebook_profile_url": null, "title": "Editor In Chief", "description": "Co-founded giantbomb.com, a web site about video games. Grew podcast into one of the largest podcasts in all of podcasting. Grew a significant editorial presence in an era when no one seemed to be able to do that anymore. Helped define and grow a subscription-based product for our content. Drank a lot of energy drinks.", "location": "San Francisco Bay Area", "logo_url": null}, {"starts_at": {"day": 1, "month": 10, "year": 1996}, "ends_at": {"day": 30, "month": 11, "year": 2007}, "company": "GameSpot", "company_linkedin_profile_url": "https://www.linkedin.com/company/gamespot", "company_facebook_profile_url": null, "title": "Editorial Director", "description": "Started as a part-time editorial assistant. 'Left' in 2007 as Editorial Director. Look up that last bit on Wikipedia, I guess, I\"m kind of tired of talking about it.", "location": "San Francisco Bay Area", "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/gamespot/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241019%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241019T164310Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=da442802162341874960a17c90d69cd1dd41d9faef99d7fe3fd5bedc332a4941"}], "languages": ["English"], "languages_and_proficiencies": [{"name": "English", "proficiency": "null"}], "connections": 820, "recommendations": ["Scott Tester\n\n\n\nJeff Gerstmann once correctly guessed the story of my entire professional career based on nothing more than seeing my name in the credits of an XBLA game.", "Don Francis\n\n\n\nJeff brings integrity and dependability to all of his work. I have followed his contributions for many years and collaborated with him over the past few months. He is responsive, careful, unequivocating, and charismatic. He tells it how it is, but adds a spoonful of sugar to help even the toughest journalistic drafts go down."], "activities": [{"title": "Launching Call of Duty games is always crazy, fun and exciting but also a privilege. Congrats to the amazing teams at Infinity Ward and Activision…", "link": "https://www.linkedin.com/signup/cold-join", "activity_status": "Liked by Jeff Gerstmann"}]}
+{
+    "public_identifier": "jeffgerstmann",
+    "profile_pic_url": "https://media.licdn.com/dms/image/v2/C4D03AQHRZxAkNDKIow/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516285078549?e=1735171200&v=beta&t=Kn4p9X-zZsPacRRTdcapof-h3yddXtvW5uZFrh82Mm4",
+    "first_name": "Jeff",
+    "last_name": "Gerstmann",
+    "full_name": "Jeff Gerstmann",
+    "follower_count": 953,
+    "occupation": "Founder at Guard Bike Heavy Industries",
+    "headline": "Jeff Gerstmann of The Jeff Gerstmann Show",
+    "summary": "Have covered computer and video games for the past, like, 30 years. Have launched and redesigned websites. Have found a new and better way to do both.",
+    "country": "US",
+    "country_full_name": "United States",
+    "city": "United States",
+    "experiences": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 6,
+                "year": 2022
+            },
+            "ends_at": null,
+            "company": "Guard Bike Heavy Industries",
+            "company_linkedin_profile_url": null,
+            "company_facebook_profile_url": null,
+            "title": "Founder",
+            "description": "Covering the video game industry and, ya know, games with a variety of podcasts and additional shows. Look for 'The Jeff Gerstmann Show' wherever you get your podcasts.",
+            "location": "California, United States",
+            "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 3,
+                "year": 2008
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 6,
+                "year": 2022
+            },
+            "company": "Giant Bomb",
+            "company_linkedin_profile_url": null,
+            "company_facebook_profile_url": null,
+            "title": "Editor In Chief",
+            "description": "Co-founded giantbomb.com, a web site about video games. Grew podcast into one of the largest podcasts in all of podcasting. Grew a significant editorial presence in an era when no one seemed to be able to do that anymore. Helped define and grow a subscription-based product for our content. Drank a lot of energy drinks.",
+            "location": "San Francisco Bay Area",
+            "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 10,
+                "year": 1996
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 11,
+                "year": 2007
+            },
+            "company": "GameSpot",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/gamespot",
+            "company_facebook_profile_url": null,
+            "title": "Editorial Director",
+            "description": "Started as a part-time editorial assistant. 'Left' in 2007 as Editorial Director. Look up that last bit on Wikipedia, I guess, I\"m kind of tired of talking about it.",
+            "location": "San Francisco Bay Area",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/gamespot/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241019%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241019T164310Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=da442802162341874960a17c90d69cd1dd41d9faef99d7fe3fd5bedc332a4941"
+        }
+    ],
+    "languages": [
+        "English"
+    ],
+    "languages_and_proficiencies": [
+        {
+            "name": "English",
+            "proficiency": "null"
+        }
+    ],
+    "connections": 820,
+    "recommendations": [
+        "Scott Tester\n\n\n\nJeff Gerstmann once correctly guessed the story of my entire professional career based on nothing more than seeing my name in the credits of an XBLA game.",
+        "Don Francis\n\n\n\nJeff brings integrity and dependability to all of his work. I have followed his contributions for many years and collaborated with him over the past few months. He is responsive, careful, unequivocating, and charismatic. He tells it how it is, but adds a spoonful of sugar to help even the toughest journalistic drafts go down."
+    ],
+    "activities": [
+        {
+            "title": "Launching Call of Duty games is always crazy, fun and exciting but also a privilege. Congrats to the amazing teams at Infinity Ward and Activision…",
+            "link": "https://www.linkedin.com/signup/cold-join",
+            "activity_status": "Liked by Jeff Gerstmann"
+        }
+    ]
+}
