@@ -16,10 +16,10 @@ from output_parsers import summary_parser, Summary
 
 
 def ice_break_with(name: str) -> Tuple[Summary, str]:
-    linkedin_url = linkedin_lookup_agent(name + "Linkedin")
+    linkedin_url = linkedin_lookup_agent(name)
     #linkedin_url = "https://www.linkedin.com/in/jeffgerstmann/"
 
-    bluesky_account = bluesky_lookup_agent(name=name +"Bluesky")
+    bluesky_account = bluesky_lookup_agent(name=name)
     #bluesky_account = "jeffgerstmann.com"
     
     print(bluesky_account)
