@@ -17,10 +17,13 @@ from output_parsers import summary_parser, Summary
 
 def ice_break_with(name: str) -> Tuple[Summary, str]:
     linkedin_url = linkedin_lookup_agent(name + "Linkedin")
-    bluesky_account = bluesky_lookup_agent(name=name +"Bluesky")
-    print(bluesky_account)
     #linkedin_url = "https://www.linkedin.com/in/jeffgerstmann/"
-    linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_url, mock=True)
+
+    bluesky_account = bluesky_lookup_agent(name=name +"Bluesky")
+    #bluesky_account = "jeffgerstmann.com"
+    
+    print(bluesky_account)
+    linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_url, mock=False)
     print(linkedin_data)
     #twitter_data = scrape_user_tweets_mock()
     twitter_data = scrape_bluesky_tweets(username=bluesky_account)
